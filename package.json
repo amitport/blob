@@ -1,21 +1,24 @@
 {
   "name": "blob",
-  "description": "Abstracts out Blob and uses BlobBulder in cases where it is supported with any vendor prefix.",
+  "description": "Abstracts out Blob and uses BlobBuilder in cases where it is supported with any vendor prefix.",
   "version": "0.0.5",
-  "homepage": "https://github.com/webmodules/blob",
+  "homepage": "https://github.com/amitport/blob",
   "license": "MIT",
-  "dependencies": {},
+  "main": "index.js",
+  "module": "main.js",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
   "devDependencies": {
-    "mocha": "1.17.1",
-    "expect.js": "0.2.0",
-    "zuul": "1.10.2",
-    "browserify": "4.2.3"
+    "chai": "^4.2.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^7.0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/webmodules/blob.git"
+    "url": "git://github.com/amitport/blob.git"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   }
 }
