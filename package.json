@@ -1,7 +1,7 @@
 {
   "name": "blob",
   "description": "Abstracts out Blob and uses BlobBuilder in cases where it is supported with any vendor prefix.",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "homepage": "https://github.com/amitport/blob",
   "license": "MIT",
   "main": "index.js",
