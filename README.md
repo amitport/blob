@@ -1,3 +1,5 @@
+> https://github.com/webmodules/blob was abandoned. This repo contains the latest versions published to NPM.
+
 # Blob
 
 A cross-browser `Blob` that falls back to `BlobBuilder` when appropriate.
